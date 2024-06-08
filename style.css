@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+header {
+  margin-top: 70px;
+}
+.banner_img {
+  background-image: url(./images/banner.gif);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  background-color: white;
+}
+.sidebar {
+  margin-top: 70px;
+}
+figure img {
+  width: 100rem;
+}
+.carousel-item {
+  background-color: lightblue;
+}
+.carousel-item img {
+  background-color: lightblue;
+  border-radius: 50%;
+}
